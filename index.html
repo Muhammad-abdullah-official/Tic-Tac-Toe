@@ -18,8 +18,8 @@
     <div class="homepage">
       <div class="container">
         <h1>TIC TAC TOE</h1>
-        <button>Two Player Game</button>
-        <button>Play with Robot</button>
+        <button id="twoPlayer">Two Player Game</button>
+        <button id="playerRobot">Play with Robot</button>
       </div>
     </div>
 
@@ -45,24 +45,24 @@
         </div>
 
         <!-- Indication to player whose turn -->
-        <p class="message">Player 1 turn</p>
+        <p class="message" id="message">Player 1 turn</p>
 
         <!-- game boxes -->
         <div class="gameboxes">
           <div class="firstrow">
-            <span class="boxes" id="row1col1"></span>
-            <span class="boxes" id="row1col2"></span>
-            <span class="boxes" id="row1col3"></span>
+            <span class="boxes row1col1" id="0"></span>
+            <span class="boxes row1col2" id="1"></span>
+            <span class="boxes row1col3" id="2"></span>
           </div>
           <div class="secondrow">
-            <span class="boxes" id="row2col1"></span>
-            <span class="boxes" id="row2col2"></span>
-            <span class="boxes" id="row2col3"></span>
+            <span class="boxes row2col1" id="3"></span>
+            <span class="boxes row2col2" id="4"></span>
+            <span class="boxes row2col3" id="5"></span>
           </div>
           <div class="thirdrow">
-            <span class="boxes" id="row3col1"></span>
-            <span class="boxes" id="row3col2"></span>
-            <span class="boxes" id="row3col3"></span>
+            <span class="boxes row3col1" id="6"></span>
+            <span class="boxes row3col2" id="7"></span>
+            <span class="boxes row3col3" id="8"></span>
           </div>
         </div>
       </div>

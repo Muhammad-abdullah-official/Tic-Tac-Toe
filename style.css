@@ -19,7 +19,7 @@ body {
 /* Home Page */
 
 .homepage {
-    display: none;
+    display: block;
 }
 
 .container {
@@ -55,7 +55,7 @@ body {
 /* Two player game page */
 
 .twoplayerpage {
-    display: block;
+    display: none;
 }
 
 .twoplayergame {
@@ -85,7 +85,7 @@ body {
 
 .player1 .disable {
     pointer-events: none;
-    opacity: 0.5;
+    opacity: 0.3;
 }
 
 .player2 {
@@ -98,7 +98,7 @@ body {
 
 .player2 .disable {
     pointer-events: none;
-    opacity: 0.5;
+    opacity: 0.3;
 }
 
 .players i {
@@ -143,20 +143,39 @@ body {
     display: flex;
 }
 
-#row1col1,
-#row1col2,
-#row2col1,
-#row2col2 {
+.row1col1,
+.row1col2,
+.row2col1,
+.row2col2 {
     border-right: 2px solid rgba(11, 24, 27, 0.37);
     border-bottom: 2px solid rgba(11, 24, 27, 0.37);
 }
 
-#row3col1,
-#row3col2 {
+.row3col1,
+.row3col2 {
     border-right: 2px solid rgba(11, 24, 27, 0.37);
 }
 
-#row1col3,
-#row2col3 {
+.row1col3,
+.row2col3 {
     border-bottom: 2px solid rgba(11, 24, 27, 0.37);
 }
+
+.boxes {
+    font-size: 40px;
+    text-align: center;
+    margin: auto;
+}
+
+.limegreen {
+    color: green;
+}
+
+.tomato {
+    color: rgba(240, 67, 37, 0.776);
+}
+
+
+/* .boxes:not(.checked):hover {
+    background-color: rgb(203, 229, 255);
+} */
