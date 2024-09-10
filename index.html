@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- home page box -->
+    <div class="homepage">
+      <div class="container">
+        <h1>TIC TAC TOE</h1>
+        <button>Two Player Game</button>
+        <button>Play with Robot</button>
+      </div>
+    </div>
+
+    <!-- Two player game container -->
+    <div class="twoplayerpage">
+      <div class="twoplayergame">
+        <!-- Heading -->
+        <h1>Two Player Game</h1>
+
+        <!-- player logos -->
+        <div class="players">
+          <!-- player1 logo -->
+          <div class="player1">
+            <i class="fa-solid fa-user"></i>
+            <h2 id="player1">Player 1</h2>
+          </div>
+
+          <!-- player 2 logo -->
+          <div class="player2">
+            <i class="fa-solid fa-user"></i>
+            <h2 id="player2">Player 2</h2>
+          </div>
+        </div>
+
+        <!-- Indication to player whose turn -->
+        <p class="message">Player 1 turn</p>
+
+        <!-- game boxes -->
+        <div class="gameboxes">
+          <div class="firstrow">
+            <span class="boxes" id="row1col1"></span>
+            <span class="boxes" id="row1col2"></span>
+            <span class="boxes" id="row1col3"></span>
+          </div>
+          <div class="secondrow">
+            <span class="boxes" id="row2col1"></span>
+            <span class="boxes" id="row2col2"></span>
+            <span class="boxes" id="row2col3"></span>
+          </div>
+          <div class="thirdrow">
+            <span class="boxes" id="row3col1"></span>
+            <span class="boxes" id="row3col2"></span>
+            <span class="boxes" id="row3col3"></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- div closed twoplayerpage  -->
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
